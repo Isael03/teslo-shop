@@ -12,7 +12,10 @@ import { fileFilter } from './helpers/fileFilter.helper';
 import { diskStorage } from 'multer';
 import { fileNamer } from './helpers/fileNamer.helper';
 import { ConfigService } from '@nestjs/config';
+import { ApiTags } from '@nestjs/swagger';
 
+
+@ApiTags('File - Get and Upload')
 @Controller('files')
 class FilesController {
   constructor(private readonly filesService: FilesService,
