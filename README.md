@@ -8,8 +8,10 @@ Este proyecto incluye:
 - Api rest de productos y usuario.
 - Login y registro de usuarios.
 - Roles de usuario.
+- Subida de archivos.
 - Websockets.
 - Conección a base de datos Postgres.
+
 ## Inicializar proyecto
 1. Clonar proyecto
 2. Instalar dependencias
